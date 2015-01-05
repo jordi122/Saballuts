@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Saballuts" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_saballuts</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Saballuts</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Saballuts</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Saballuts</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Saballuts</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Saballuts</item>
+        <item name="android:actionBarTabTextStyle">@style/actionBarTabTextStyle.Saballuts</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_saballuts</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_saballuts</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Saballuts</item>
+        
+        
+    </style>
+
+    <style name="ActionBar.Solid.Saballuts" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_saballuts</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_saballuts</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_saballuts</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Saballuts</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Saballuts" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_saballuts</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Saballuts</item>
+    </style>
+
+    <style name="PopupMenu.Saballuts" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_saballuts</item>	
+    </style>
+
+    <style name="DropDownListView.Saballuts" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_saballuts</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Saballuts" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_saballuts</item>
+    </style>
+
+    <style name="DropDownNav.Saballuts" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_saballuts</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_saballuts</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_saballuts</item>
+    </style>
+    
+    <style name="ProgressBar.Saballuts" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_saballuts</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Saballuts" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_saballuts</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Saballuts.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Saballuts</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Saballuts</item>
+    </style>
+
+    <style name="actionBarTabTextStyle.Saballuts" parent="android:style/Widget.Holo.Light.ActionBar.TabText">
+        <!-- This is a WHITE tab color -->
+        <item name="android:textColor">@color/selector_tab_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

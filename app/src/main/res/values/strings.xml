@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Saballuts</string>
+    <string name="title_section0">Patrocinadors</string>
+    <string name="title_section1">Notícies</string>
+    <string name="title_section2">Agenda</string>
+    <string name="title_section3">Twitter</string>
+    <string name="title_section4">Facebook</string>
+    <string name="title_section5">Fotos</string>
+    <string name="title_section6">Vídeos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Paràmetres</string>
+    <string name="lblPatro">Patrocinadors</string>
+    <string name="lblAgenda">Agenda</string>
+    <string name="lblNoticies">Notícies</string>
+    <string name="lblTwitter">Twitter</string>
+    <string name="lblFacebook">Facebook</string>
+    <string name="lblFotos">Fotos</string>
+    <string name="lblVideos">Vídeos</string>
+    <string name="menu_imatge">Desa imatge</string>
+    <string name="menu_imatgeenvia">Desa i envia</string>
+
+
+</resources>

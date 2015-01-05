@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/jordi/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/jordi/Dropbox/Documents/Android/Saballuts/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-c85a938f57a3f1535db0b7b5a5e819f92a9d0bbb.jar" />
+    </item>
+    <item
+        jar="/home/jordi/Android/Sdk/extras/android/m2repository/com/android/support/support-v13/19.1.0/support-v13-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="6b852a232f642c75a7fdfc7212b841b8c8f8959c">
+        <dex dex="/home/jordi/Dropbox/Documents/Android/Saballuts/app/build/intermediates/pre-dexed/debug/support-v13-19.1.0-847830d55720034b7853580426f5b7d00b277961.jar" />
+    </item>
+
+</items>
